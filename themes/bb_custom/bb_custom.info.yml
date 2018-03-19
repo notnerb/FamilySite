@@ -1,0 +1,16 @@
+name: bb_custom
+description: Drupal 8 Theme
+type: theme
+core: 8.x
+libraries:
+  - bb_custom/global-css
+  - bb_custom/global-js
+
+regions:
+  content: 'Main Content'
+  header: 'Head'
+  footer: 'Trailer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
+   
+
