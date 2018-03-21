@@ -13,3 +13,26 @@ main{
 .layout-sidebar-second{
     @include span(2 last);
 }
+
+.front-content{
+	h3{
+		a{
+			color:#464646;
+			text-decoration: none;
+		}
+	}
+
+	p{
+		line-height:1.5;
+	}
+	/*from the inspection of page elements (inspector)*/
+	.views-row{
+		margin: 45px 0;
+	}
+
+	.views-field-view-node a{
+		color: orange;
+		text-decoration: none;
+	}
+	
+}

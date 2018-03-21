@@ -9,13 +9,16 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-    	Brian is ???
-      {{ page.content }}
+    	
+      <div class="front-content">
+          {{ page.content }}
+      </div>
+      
     </div>{# /.layout-content #}
 
     {% if page.sidebar %}
       <aside class="layout-sidebar" role="complementary">
-        ASHLEY
+       
         {{ page.sidebar }}
         
       </aside>

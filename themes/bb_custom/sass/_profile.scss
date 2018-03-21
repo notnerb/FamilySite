@@ -1,0 +1,22 @@
+
+
+.author strong{
+    font-weight: bold;
+    font-size: 20;
+}
+
+.about {
+/* Plan: have a nicely styled link (or page width image) to Art, Projects
+ then style the pages to be an image grid/gallery with hover descriptions, linking 
+ to full project description.
+*/
+@include span(3 last);
+	height: 1px;
+	strong{
+		font-weight:bold;
+		font-size:20;
+
+	}
+		
+	
+}
