@@ -1,9 +1,9 @@
 main{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .layout-content{
-    @include span(8);
+    @include span(10);
 }
 
 .layout-sidebar-first{
@@ -15,6 +15,7 @@ main{
 }
 
 .front-content{
+	margin-top: 50px;
 	h3{
 		a{
 			color:#464646;
@@ -26,9 +27,7 @@ main{
 		line-height:1.5;
 	}
 	/*from the inspection of page elements (inspector)*/
-	.views-row{
-		margin: 45px 0;
-	}
+	
 
 	.views-field-view-node a{
 		color: orange;

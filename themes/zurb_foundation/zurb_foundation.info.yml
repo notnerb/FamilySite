@@ -1,0 +1,36 @@
+name: ZURB Foundation 6
+description: The most advanced responsive front-end framework in the world, now in Drupal! Based on Zurb Foundation version 6.x.
+# core: 8.x
+type: theme
+
+# Image appears on admin/appearance
+screenshot: images/screenshot.jpg
+
+libraries:
+  - zurb_foundation_custom/global
+
+# Uncompressed uncomment for development or as a reference
+# - zurb_foundation/development
+
+# Regions are output in the page.html.twig
+
+regions:
+  content: 'Main Content'
+  header: 'Head'
+  footer: 'Trailer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
+
+features:
+  - logo
+  - name
+  - slogan
+  - favicon
+  - comment_user_picture
+  - node_user_picture
+
+# Information added by Drupal.org packaging script on 2018-03-19
+version: '8.x-6.0-alpha4'
+core: '8.x'
+project: 'zurb_foundation'
+datestamp: 1521471792

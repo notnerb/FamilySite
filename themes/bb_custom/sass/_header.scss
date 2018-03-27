@@ -14,12 +14,9 @@
 
 .main-navigation{
 	margin-top: 75px;
-	position: relative;
-	right: 800px;
-	@include span(5 last);
-
+	left: 150px;
 	li{
-		float: left;
+		float: right;
 	}
 
 	a{
